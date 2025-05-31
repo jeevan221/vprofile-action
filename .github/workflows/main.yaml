@@ -34,6 +34,7 @@ jobs:
           echo "Project Key: ${{ secrets.SONAR_PROJECT_KEY }}"
           echo "Organization: ${{ secrets.SONAR_ORGANIZATION }}"
           echo "Sonar URL: ${{ secrets.SONAR_URL }}"
+          echo "Sonar Token: ${{ secrets.SONAR_TOKEN }}"
 
 
 
