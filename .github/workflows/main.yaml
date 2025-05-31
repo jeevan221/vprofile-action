@@ -44,7 +44,7 @@ jobs:
             -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml \
             -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/
 
-      # (Removed duplicate SonarQube Scan step with incorrect indentation)
+      # (Removed duplicate SonarQube Scan step with
 
       # Check the Quality Gate status.
       - name: SonarQube Quality Gate check
